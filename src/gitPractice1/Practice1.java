@@ -11,7 +11,7 @@ public class Practice1 {
      */
     public static void main(String[] args) {
 
-        System.out.println("Happy to see yu B18");
+        System.out.println("Happy to see yu B18 ");
 
     }
 }
