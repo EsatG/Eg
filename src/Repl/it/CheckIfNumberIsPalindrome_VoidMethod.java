@@ -1,5 +1,6 @@
 package Repl.it;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class CheckIfNumberIsPalindrome_VoidMethod {
@@ -9,6 +10,24 @@ public class CheckIfNumberIsPalindrome_VoidMethod {
         isPalindrome(num);
     }
     public static void isPalindrome (int num){
+
+
+        String numStr = ""+num;
+        int i = 0;
+        int j = numStr.length() -1;
+
+        boolean result2 = true;
+        while(i<j)
+        {
+            if(numStr.charAt(i) != numStr.charAt(j))
+            {
+                result2 = false;
+                break;
+            }
+
+            i++; j--;
+        }
+        System.out.println("first :"+result2);
 
 
         int temp = num;
