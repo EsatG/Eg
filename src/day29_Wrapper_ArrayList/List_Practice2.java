@@ -35,8 +35,6 @@ public class List_Practice2 {
         int maximum = max(list2);
         System.out.println(maximum);
 
-
-
     }
     public static int max(ArrayList<Integer> list){
         int max = Integer.MIN_VALUE;

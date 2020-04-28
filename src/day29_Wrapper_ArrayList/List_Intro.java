@@ -7,7 +7,7 @@ public class List_Intro {
     ArrayList does not support primitives.it only support non-primitives
     ArrayList< DataType> listName = new ArrayList<DataType>();
     ArrayList size is dynamic ,it means automatically adjusted
-    has index numbers
+    ArrayList has index numbers
     Methods of ArrayList:
          add () : adds non-primitives (objects) to the ArrayList
          get(index) : gets the object at the given index, returns the object
