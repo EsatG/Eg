@@ -2,7 +2,7 @@ package day30_ArrayList;
 
 import java.util.ArrayList;
 
-public class ArrayList_Mothods2 {
+public class ArrayList_Methods2 {
     public static void main(String[] args) {
 
         ArrayList<String> list = new ArrayList<>();
