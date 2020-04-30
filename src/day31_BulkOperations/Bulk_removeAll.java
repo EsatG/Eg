@@ -22,6 +22,7 @@ public class Bulk_removeAll {
                     list1.remove(b);
 
           */
+
         list1.removeAll(Arrays.asList(3,1));  // to be removed any of the  matching object
 
         System.out.println(list1);

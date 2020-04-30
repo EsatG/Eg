@@ -13,6 +13,7 @@ public class Bulk_retainAll {
 
         // only keep 1,2,3
 
+
         list.retainAll(Arrays.asList(1,2,3));
         System.out.println(list);
 
