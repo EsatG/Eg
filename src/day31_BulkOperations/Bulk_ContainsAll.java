@@ -32,7 +32,7 @@ public class Bulk_ContainsAll {
             */
 
         boolean r1 = list1.containsAll(Arrays.asList(10,20,60));
-        // Array.asList(object1,object2...)=>> return as an array list
+        // Array.asList(object1,object2...)=>> return as the collection type (list)
         System.out.println(r1);
 
         Integer [] data = {10,30,40};
