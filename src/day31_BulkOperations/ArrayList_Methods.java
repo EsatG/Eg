@@ -9,6 +9,7 @@ public class ArrayList_Methods {
     /*
     contains (Object) : returns as boolean
     equals(ArrayListName) : compares two arraylist
+    isEmpty() : returns as boolean, depending on the size. Size =0 =>> true
 
     sorting arraylist :
                Collections.sort(ArrayListName); =>> Ascending order
@@ -73,6 +74,15 @@ public class ArrayList_Methods {
 
         list3 = reversedList3;  // we can  assign one ArrayList to another ArrayList
         System.out.println(list3);
+
+        System.out.println(list3.size());
+
+        boolean r4 = list3.isEmpty(); // false
+        System.out.println(r4);
+
+        list3.clear();
+        boolean r5 = list3.isEmpty();  // true
+        System.out.println(r5);
 
 
 
