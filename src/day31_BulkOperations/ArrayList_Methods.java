@@ -18,8 +18,8 @@ public class ArrayList_Methods {
 
     Data Structers:
              1. Array =>> Arrays (java.util)
-             2. Collection =>> Collections (java.util)
-             3. Maps
+             2. Collection =>> Collections (java.util), does not support primitive
+             3. Maps =>> does not support primitive
      */
 
     public static void main(String[] args) {
