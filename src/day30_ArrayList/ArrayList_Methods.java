@@ -51,7 +51,7 @@ public class ArrayList_Methods {
             list3.remove(a);   // [1,3,4]    // a is an primitive so it represent to index
 
         Integer b = 1;
-        list3.remove(b);    // [2,3,4]  // b is an object, first object will be removed since b=1
+        list3.remove(b);    // [2,3,4]  // b is an object, object will be removed
         System.out.println(list3);
 
         ArrayList<Integer> list4 = new ArrayList<>();

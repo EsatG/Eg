@@ -43,7 +43,7 @@ public class ParseMethods {
         System.out.println(h2);
 
         String result3 = "tRUe";    // parse method is not case sensitive
-        boolean h3 = Boolean.parseBoolean(result1);
+        boolean h3 = Boolean.parseBoolean(result3);
         System.out.println( h3);    // true
         System.out.println( ! h3);   // false
 
