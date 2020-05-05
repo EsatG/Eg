@@ -4,7 +4,7 @@ public class BankAccount {
     /*
     practice task:
     create a custom class for bank account
-      attrubutes: accountholder, accountnumber, balance
+      attributes: accountholder, accountnumber, balance
       actions: cehckingBalance(), withDraw( amount ), deposit( amount )
      */
 
@@ -13,14 +13,25 @@ public class BankAccount {
     double balance;
 
     public void checkingBalance (){
+
         System.out.println("Available Balance: " + balance);
     }
-    public void withDraw(double amount){
-        System.out.println("Withdrawing $" + amount);
 
-        balance -= amount;
+    public void withDraw(double amount){
+        if(balance <= 0){
+            System.out.println("There is no money");
+        }
+
+        else if (amount > balance){
+            System.out.println("Withdrawing $" + amount);
+            balance -= amount + 35;
+        } else {
+            System.out.println("Withdrawing $" + amount);
+            balance -= amount;
+        }
 
     }
+
     public void deposit (double amount){
         System.out.println("Depositing $" + amount);
         balance += amount;
