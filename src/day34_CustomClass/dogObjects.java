@@ -36,7 +36,14 @@ public class dogObjects {
 
         System.out.println("=============================================================================");
 
+        Dog dog4 = new Dog();
+        dog4.setDogInfo("Pomeranian","Small",3,"White","Lil");
+
+        Dog dog5 = new Dog();
+        dog5.setDogInfo("Kangal","Extra Big",4,"Grey","Ernie");
+
         ArrayList<Dog> dogs = new ArrayList<>(Arrays.asList(dog1,dog2,dog3));
+        dogs.addAll(Arrays.asList(dog4,dog5));
 
         for(int i = 0; i < dogs.size(); i++){
             Dog eachDog = dogs.get(i);
