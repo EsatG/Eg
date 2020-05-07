@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class ObjectMemory {
 
-    int i = 1000; // instance variable
+    int i = 1000; // instance variable (because it outside the block of method)
 
     public static void main(String[] args) {
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(10,20,30,40));
@@ -22,12 +22,12 @@ public class ObjectMemory {
         String str1 = new String("cybertek");
         String str2 = str1;
 
-        str1 = str1.toUpperCase(); //"Cybertek"
+        str1 = str1.toUpperCase();
 
-        System.out.println(str1);
-        System.out.println(str2);
+        System.out.println(str1);  // CYBERTEK
+        System.out.println(str2);  // cybertek
 
-        int a = 300;
+        int a = 300;   // local variable
 
 
     }
