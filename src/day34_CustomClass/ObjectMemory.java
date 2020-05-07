@@ -19,7 +19,7 @@ public class ObjectMemory {
 
         System.out.println("===================================================");
 
-        String str1 = new String("cybertek");
+        String str1 = new String("cybertek");   // str1 = reference variable
         String str2 = str1;
 
         str1 = str1.toUpperCase();
