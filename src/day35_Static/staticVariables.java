@@ -3,8 +3,8 @@ package day35_Static;
 public class staticVariables {
     /*
     local variable: variables that are declared in a block
-    instance variables: declared outside of the blocks
-    static variable: declared outside of any block, it contains "static" keyword, it belongs to class
+    instance variables: declared outside of the blocks, it belongs to objects
+    static variable: declared outside of any block; it contains "static" keyword; it belongs to class; prefers to be called through the class name
      */
 
           int a2 = 200;  // instance variable
