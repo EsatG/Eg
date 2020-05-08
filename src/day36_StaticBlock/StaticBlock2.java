@@ -10,7 +10,7 @@ public class StaticBlock2 {
     static Tester tester1 = new Tester();
 
     public static void main(String[] args) {
-        tester1.setTesterInfo("Esat",123,"QA",100000);
+
         System.out.println(tester1);
     }
 
@@ -25,7 +25,7 @@ public class StaticBlock2 {
             b = 200;
         }
 
-
+        tester1.setTesterInfo("Esat",123,"QA",100000);
     }
 
 
