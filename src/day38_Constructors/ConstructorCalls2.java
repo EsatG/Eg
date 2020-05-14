@@ -5,7 +5,7 @@ public class ConstructorCalls2 {
     /*
     Calling Constructors:
     1. Only a constructor can call other constructor
-    2. Constructor can not be called by its name, this()  keyweord is used call a constructor
+    2. Constructor can not be called by its name, this()  keyword is used call a constructor
     3. Constructor call needs to be at the first step
     4. Just One Constructor can be called to a constructor
     5. A constructor can not call itself
