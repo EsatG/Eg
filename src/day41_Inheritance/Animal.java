@@ -4,7 +4,7 @@ public class Animal {
 
     /*
     Inheritance:
-           visible methods and variables can be inherited
+           visible methods and variables can be inherited.
            easist way to get rich
            build relationship between classes
            super (parent) & sub (child) relationship
