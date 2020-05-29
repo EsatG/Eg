@@ -27,10 +27,10 @@ public class MethodOverriding extends Test {
     public static void main(String[] args) {
 
         Test obj1 = new Test();
-        obj1.method();  // Esat
+       obj1.method();  // Esat
 
         MethodOverriding obj2 = new MethodOverriding();
-        obj2.method();  // Esat
+        obj2.method();  // Cevdet
     }
 
 

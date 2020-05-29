@@ -22,8 +22,8 @@ public class SuperKeyword extends A {
 
     public static void main(String[] args) {
 
-        // SuperKeyword obj = new SuperKeyword();  100   100
+        SuperKeyword obj = new SuperKeyword();  //100   100
 
-        A obj = new A(1.5);
+       // A obj = new A(1.5);
     }
 }
