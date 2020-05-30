@@ -5,7 +5,8 @@ import java.util.NoSuchElementException;
 
 public class ThrowKeyword {
 /*
-    manually throwing the exception
+    manually throwing the exception, means create an exception.
+    Once we create an exception we can not go ahead
 
  */
     public static void main(String[] args)  {
