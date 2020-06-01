@@ -13,6 +13,16 @@ class Data extends Final_Class{   // error =>> anything in "final" class can nev
  */
 
 class Data1 {
+    /*
+ final   {
+
+    }
+
+    final static {   // "final" keyword can not be applied to blocks
+
+    }
+
+     */
 
 }
 
