@@ -17,10 +17,6 @@ public abstract class Shape{
 
     Abstarct Class:
                 A class meant to be inherited (can not be final,static and private )
-
-
-
-
      */
 
      abstract void area();
