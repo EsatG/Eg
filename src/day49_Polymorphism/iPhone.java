@@ -12,6 +12,8 @@ public final class iPhone extends Phone implements AppleApps {
         this.size = size;
     }
 
+
+
     @Override
     public void download() {
         System.out.println("iPhone is downloading apps from " + AppStoreName);

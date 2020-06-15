@@ -23,6 +23,8 @@ public abstract class Phone {
     public double price;
     public String size;
 
+
+
    public abstract void texting(long phoneNumber);
 
    public abstract void calling(long phoneNumber);
