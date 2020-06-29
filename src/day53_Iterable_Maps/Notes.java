@@ -4,6 +4,17 @@ public class Notes {
 
     /*
     List : Accepts duplicates, has index number
+           List is child interface of Collection
+           insertion order preserved
+           implemented by ArrayList,LinkedList,Vector
+           size is dynamic
+
+           Vector:
+             - Implements a dynamic array
+             - It is similar to ArrayList but two differen things
+                 1. Vector is synchronized (thread-safe)
+                 2. Vector contains many legacy methods that are not part of the collection framework.
+            - Synchronize can only be applied for methods and block of code.
     Set : does not accept duplicates, does not have index
 
     Iterable(I): Root interface,
